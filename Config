@@ -1,0 +1,7 @@
+Router>enable
+Router#configure 
+Router(config)#line console 0
+Router(config-line)#login local
+Router(config-line)#exit 
+Router(config)#username Admin secret p@$$w0rD
+Router(config)#hostname R1
